@@ -8,8 +8,8 @@ public class BankApplication {
         System.out.println("Enter your 'Name' and 'CustomerId' to access your Bank account:");
         String name=sc.nextLine();
         String customerId=sc.nextLine();
-        BankAccount obj1=new BankAccount(name,customerId);
-        obj1.menu();
+        BankAccount bankAccount1=new BankAccount(name,customerId);
+        bankAccount1.menu();
     }
 }
 
